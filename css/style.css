@@ -285,7 +285,7 @@ a.active {
 
 #home .container {
     /* background-image: url(../img/p10.jpg); */
-    background-image: url(../img/p5.jpg);
+    background-image: url(../img/p10.jpg);
     background-size: cover;
     height: 110vh;
 }
@@ -468,7 +468,7 @@ a.active {
 
 .portfolio .categories-grid .categories ul li a {
     display: inline-block;
-    color: #60606e;
+     color: #60606e; 
     padding: 0 10px;
     margin: 0 14px;
     -webkit-transition: all .2s ease-in-out .2s;
@@ -582,10 +582,7 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
+
 
 .portfolio-padding {
     padding: 50px 0;
@@ -597,7 +594,7 @@ a.active {
 }
 
 .modal-content {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0); 
     border: none;
 }
 
@@ -802,4 +799,8 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+}
+.addlink{
+    text-align: center;
+
 }
